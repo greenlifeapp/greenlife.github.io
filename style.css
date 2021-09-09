@@ -94,9 +94,6 @@ a:hover {
     font-weight: 400;
     font-size: 28px;
     color: #6B9887;
-    /*border-color: #6B9887;
-    border-width: 0 0 3px 0;
-    border-style: solid;*/
 }
 
 #navTitle1 {
@@ -160,7 +157,7 @@ a:hover {
     background-color: #FEFFFC;
     height: auto;
     text-align: center;
-    padding-bottom: 55px;
+    padding-bottom: 70px;
 }
 
 #aboutusBody {
@@ -322,4 +319,42 @@ div .goTop {
     color: #6B9887;
     font-weight: 400;
     padding-bottom: 50px;
+}
+
+.ver img {
+    width: 200px;
+    height: 200px;
+}
+
+.ver {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.ver a {
+    background-color: #6B9887;
+    color: #ffffff;
+    padding: 14px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ver a img {
+    width: 22px;
+    height: 22px;
+    padding-right: 5px;
+}
+
+#downloadBody {
+    display: flex;            
+    display: -webkit-flex;            
+    justify-content: center;            
+    align-items: center;
+}
+
+#an {
+    float: left;
+    margin-right: 3%;
 }
