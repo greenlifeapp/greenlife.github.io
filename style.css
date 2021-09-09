@@ -292,6 +292,13 @@ a:hover {
     font-weight: 500;
 }
 
+.versionTitle {
+    color: #6B9887;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
 .footer {
     height: 150px;
     width: 100%;
@@ -329,22 +336,14 @@ div .goTop {
 .ver {
     font-size: 18px;
     font-weight: 500;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
-.ver a {
-    background-color: #6B9887;
-    color: #ffffff;
-    padding: 14px;
-    border: none;
-    border-radius: 40px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.ver a img {
+#downloadicon1, #downloadicon2 {
     width: 22px;
     height: 22px;
     padding-right: 5px;
+    display: inline;
 }
 
 #downloadBody {
@@ -356,5 +355,13 @@ div .goTop {
 
 #an {
     float: left;
-    margin-right: 3%;
+    margin-right: 7%;
+}
+
+#downloadIntro {
+    display: block;
+    width: 100%;
+    padding-top: 55px;
+    color: #333333;
+    font-weight: 600;
 }
