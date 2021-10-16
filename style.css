@@ -177,6 +177,7 @@ a:hover {
     font-weight: 500;
     padding-top: 50px;
     padding-bottom: 60px;
+    color: #6B9887;
 }
 
 .group1 {
@@ -292,6 +293,20 @@ a:hover {
     font-weight: 500;
 }
 
+.sponsorName {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.ourSponsors {
+    color: #6B9887;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
 .versionTitle {
     color: #6B9887;
     font-size: 24px;
@@ -364,4 +379,13 @@ div .goTop {
     padding-top: 55px;
     color: #333333;
     font-weight: 600;
+}
+
+.sponsorSec{
+    width: 100%;
+    margin-top: 70px;
+    background-image: url("Image/wave.svg");
+    height: 300px;
+    text-align: center;
+    background-size: cover;
 }
