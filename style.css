@@ -178,51 +178,39 @@ a:hover {
     padding-top: 50px;
     padding-bottom: 60px;
     color: #6B9887;
+    line-height: 40px;
 }
 
-.group1 {
-    height: 300px;
+.group1, .group2 {
+    height: 350px;
     display: flex;            
     display: -webkit-flex;            
     justify-content: center;            
     align-items: center; 
     padding-bottom: 50px;
-    font-size: 26px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 28px;
+}
+
+.bodySection span {
+    font-size: 24px;
+    color: #6B9887;
+    line-height: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
 
 .group1 img {
-    padding-left: 40px;
+    margin-left: 120px;
+    height: 100%;
 }
 
-.group2 {
-    height: 300px;
-    display: flex;            
-    display: -webkit-flex;            
-    justify-content: center;            
-    align-items: center; 
-    padding-bottom: 50px;
-    font-size: 26px;
-    font-weight: 400;
-}
+
 
 .group2 p {
-    padding-left: 40px;
-}
-
-.group3 {
-    height: 300px;
-    display: flex;            
-    display: -webkit-flex;            
-    justify-content: center;            
-    align-items: center; 
-    padding-bottom: 50px;
-    font-size: 26px;
-    font-weight: 400;
-}
-
-.group3 img {
-    padding-left: 40px;
+    margin-left: 120px;
 }
 
 .firstRow {
@@ -283,8 +271,7 @@ a:hover {
 }
 
 .bodySection img {
-    height: 200px;
-    width: 200px;
+    height: 250px;
 }
 
 .memberName {
