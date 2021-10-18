@@ -220,7 +220,7 @@ a:hover {
     display: -webkit-flex;            
     justify-content: center;            
     align-items: center; 
-    padding-bottom: 45px;
+    margin-bottom: 45px;
 }
 
 .member1 {
@@ -228,12 +228,14 @@ a:hover {
     width: 23%;
     float: left;
     margin-right: 2%;
+    line-height: 28px;
 }
 
 .member3 {
     height: 100%;
     width: 23%;
     float: left;
+    line-height: 28px;
 }
 
 .SecondRow {
@@ -252,12 +254,14 @@ a:hover {
     width: 23%;
     float: left;
     margin-right: 2%;
+    line-height: 28px;
 }
 
 .member5 {
     height: 100%;
     width: 23%;
     float: left;
+    line-height: 28px;
 }
 
 .firstRow img {
